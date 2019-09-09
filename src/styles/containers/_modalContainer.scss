@@ -1,0 +1,47 @@
+
+
+.modal--container{
+
+    left: 5%;
+    width: 90%;
+    z-index: 999;
+    height: 90%;
+    margin: 0 auto;
+    position: fixed;
+    top: 2%;
+    background: #d4d4d4;
+    overflow: scroll;
+    .modal--heading{
+        .modal--close{
+            right: 15px;
+            position: absolute;
+            top: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .modal--wrapper{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .original--image-container{
+
+        }
+
+        .new--image-container{
+            .new--image-wrapper{
+                min-width: 50%;
+                min-height: 100%;
+            }
+           .button-container{
+            text-align: left;
+            padding: 10px;
+          
+           }
+        }
+
+    }
+   
+
+
+}
